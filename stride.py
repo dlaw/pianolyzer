@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-import mido, queue, time
+import mido, time
 
 max_notes   = 3     # chords are considered complete after this many notes
 max_latency = 0.03  # seconds to wait before a chord is considered complete
